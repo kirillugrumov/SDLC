@@ -1,0 +1,50 @@
+/* Основной фон и шрифт */
+.root {
+    -fx-background-color: #1e1e2e;
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+/* Стилизация текстовых меток */
+.label {
+    -fx-text-fill: #cdd6f4;
+    -fx-font-size: 14px;
+}
+
+.title-label {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #89b4fa;
+}
+
+.result-card {
+    -fx-background-color: #313244;
+    -fx-background-radius: 10px;
+    -fx-padding: 15px;
+    -fx-border-color: #45475a;
+    -fx-border-radius: 10px;
+}
+
+/* Стилизация кнопок */
+.button {
+    -fx-background-color: #89b4fa;
+    -fx-text-fill: #11111b;
+    -fx-font-weight: bold;
+    -fx-font-size: 13px;
+    -fx-background-radius: 8px;
+    -fx-padding: 8px 16px;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #b4befe;
+}
+
+/* Поля ввода и ComboBox */
+.text-field, .combo-box {
+    -fx-background-color: #313244;
+    -fx-text-fill: #cdd6f4;
+    -fx-border-color: #45475a;
+    -fx-border-radius: 6px;
+    -fx-background-radius: 6px;
+    -fx-padding: 6px;
+}
